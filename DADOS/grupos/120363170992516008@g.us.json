@@ -1,0 +1,94 @@
+[
+  {
+    "name": "Teste Gold",
+    "groupId": "120363170992516008@g.us",
+    "x9": false,
+    "antiimg": false,
+    "antivideo": false,
+    "antiaudio": false,
+    "antisticker": false,
+    "antidoc": false,
+    "antictt": false,
+    "antiloc": false,
+    "antilinkgp": false,
+    "antilinkhard": false,
+    "antifake": false,
+    "Odelete": false,
+    "antispam": false,
+    "antinotas": false,
+    "anticatalogo": false,
+    "sistemGold": true,
+    "visuUnica": false,
+    "registrarFIGUS": false,
+    "soadm": false,
+    "rg_aluguel": false,
+    "listanegra": [],
+    "advertir": [],
+    "prefixos": [
+      "!"
+    ],
+    "advertir2": [],
+    "legenda_estrangeiro": "0",
+    "legenda_documento": "0",
+    "legenda_video": "0",
+    "legenda_imagem": "0",
+    "multiprefix": false,
+    "forca_ofc": [
+      {
+        "acertos": 0,
+        "erros": 0,
+        "palavra": [],
+        "escreveu": [],
+        "palavra_ofc": 0,
+        "dica": 0,
+        "tema": 0
+      }
+    ],
+    "Chances": [
+      {
+        "id": "558198923680@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      }
+    ],
+    "ausentes": [],
+    "forca_inc": false,
+    "comandos_gold": [],
+    "antipalavrao": {
+      "active": false,
+      "palavras": []
+    },
+    "limitec": {
+      "active": false,
+      "quantidade": null
+    },
+    "wellcome": [
+      {
+        "bemvindo1": true,
+        "legendabv": "oi amor",
+        "legendasaiu": 0
+      },
+      {
+        "bemvindo2": true,
+        "legendabv": "sad",
+        "legendasaiu": 0
+      }
+    ],
+    "simi1": false,
+    "simi2": false,
+    "autosticker": false,
+    "autoresposta": false,
+    "jogos": false,
+    "bangp": false
+  }
+]
