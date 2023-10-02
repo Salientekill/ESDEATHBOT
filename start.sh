@@ -6,18 +6,18 @@ echo -e "\e[32mO arquivo creds.json não foi encontrado então será iniciado co
 while : 
 do
 echo -e "\e[32mESDEATH BOT ESTÁ INICIANDO AGUARDE..\e[0m"
-node iniciar.js -code 
+node --trace-warnings iniciar.js -code 
 sleep 1
 done
 else
 echo -e "\e[32mESDEATH BOT ESTÁ INICIANDO AGUARDE..\e[0m"
-node iniciar.js --trace-warnings
+node --trace-warnings iniciar.js 
   fi
 else
 while : 
 do
 echo -e "\e[32mESDEATH BOT ESTÁ INICIANDO AGUARDE..\e[0m"
-node iniciar.js --trace-warnings
+node --trace-warnings iniciar.js
 sleep 1
 done
 fi
