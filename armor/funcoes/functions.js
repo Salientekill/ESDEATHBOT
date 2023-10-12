@@ -172,7 +172,7 @@ colors: [`${cor5}`,`${cor1}`,`${cor3}`,`${cor4}`,`${cor2}`],
 background: 'transparent',  
 letterSpacing: 1,           
 lineHeight: 1,            
-space: false,               
+space: true,               
 maxLength: '0',            
 gradrient: [`${cor4}`,`${cor2}`],     
 independentGradient: true, 
@@ -223,12 +223,12 @@ return `-c ${key}=${value}`
 }).concat(config.presets).filter(Boolean)
 }
 
-authorname = 'ALEATORY-MD-3.0'
-packname = '-JR-'
+authorname = 'ESDEATH BOT'
+packname = 'Lotus'
 
 const usedCommandRecently = new Set()
 
-chyt = `558198923680@s.whatsapp.net`
+chyt = `5521971281229@s.whatsapp.net`
 
 const isFiltered = (userId) => !!usedCommandRecently.has(userId)
 

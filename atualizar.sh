@@ -1,29 +1,17 @@
 #!/bin/bash
+echo  Instalação das ferramentas necessárias e compactação do arquivo
+zip -r dados.zip DADOS
 
-echo -e "\e[32mInstalação das ferramentas necessárias\e[0m"
-apt install -y git zip unzip
+echo # Removendo todas as pastas, exceto o arquivo compactado
 
-echo -e "\e[32mVerificando a existência da pasta DADOS\e[0m"
-if [ -d "DADOS" ]; then
-  echo -e "\e[32mCompactando a pasta DADOS\e[0m"
-  zip -r DADOS.zip DADOS
-else
-  echo -e "\e[31mA pasta DADOS não existe. Certifique-se de que ela existe antes de executar este script.\e[0m"
-  exit 1
-fi
+find . -maxdepth 1 ! -name "DADOS.zip" -type d -exec rm -rf {} \;
 
-echo -e "\e[32mRemovendo todas as pastas, exceto o arquivo compactado\e[0m"
-for file in *; do
-  if [ "$file" != "DADOS.zip" ]; then
-    rm -rf "$file"
-  fi
-done
+echo # BAIXA O ARQUIVO ATUALIZADO DA ESDEATH BOT 
 
-echo -e "\e[32mBAIXA O ARQUIVO ATUALIZADO DA ESDEATH BOT\e[0m"
-git clone https://github.com/Salientekill/ESDEATHBOT.git repo-temp && mv repo-temp/* . && rm -r repo-temp
+git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT && mv * .. && cd .. && rm -rf ESDEATHBOT
 
-echo -e "\e[32mExtrai o arquivo compactado e executa o start.sh\e[0m"
+echo # Extrai o arquivo compactado e executa o start.sh
 unzip -o DADOS.zip -d .
-rm DADOS.zip  # Remova o arquivo compactado após a extração
-
+echo # Por fim apagar o arquivo compactado
+rm  DADOS.zip
 bash start.sh
