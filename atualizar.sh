@@ -1,17 +1,16 @@
 #!/bin/bash
-echo  Instalação das ferramentas necessárias e compactação do arquivo
+echo -e "\e[32mCompactando a pasta DADOS\e[0m"
 zip -r dados.zip DADOS
 
-echo # Removendo todas as pastas, exceto o arquivo compactado
-
+echo -e "\e[32mRemovendo todas as pastas, exceto o arquivo compactado\e[0m"
 find . -maxdepth 1 ! -name "DADOS.zip" -type d -exec rm -rf {} \;
 
-echo # BAIXA O ARQUIVO ATUALIZADO DA ESDEATH BOT 
+echo -e "\e[32mBAIXA O ARQUIVO ATUALIZADO DA ESDEATH BOT\e[0m"
+git clone https://github.com/Salientekill/ESDEATHBOT.git repo-temp && mv repo-temp/* . && rm -r repo-temp
 
-git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT && mv * .. && cd .. && rm -rf ESDEATHBOT
-
-echo # Extrai o arquivo compactado e executa o start.sh
+echo -e "\e[32mExtrai o arquivo compactado e executa o start.sh\e[0m"
 unzip -o DADOS.zip -d .
+
 echo # Por fim apagar o arquivo compactado
 rm  DADOS.zip
 bash start.sh
