@@ -2,8 +2,6 @@
 echo -e "\e[32mCompactando a pasta DADOS\e[0m"
 zip -r DADOS.zip DADOS
 
-
-
 echo -e "\e[32mRemovendo todas as pastas, exceto o arquivo compactado\e[0m"
 find . -maxdepth 1 ! -name "DADOS.zip" -type d -exec rm -rf {} \;
 
