@@ -50,6 +50,7 @@ return `
 ┆    ║✼${EmojiBot} ${prefix}Menudono
 ┆    ║✼${EmojiBot} ${prefix}menuefeitos
 ┆    ║✼${EmojiBot} ${prefix}Menuadm
+┆    ║✼${EmojiBot} ${prefix}Menufig
 ┆    ║✼${EmojiBot} ${prefix}Menudw
 ┆    ║✼${EmojiBot} ${prefix}Menuanime
 ┆    ║✼${EmojiBot} ${prefix}Menupremium

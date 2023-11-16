@@ -27,7 +27,6 @@ return`
 ┆    ║✼${EmojiBot}️ ${prefix}bass (marca)
 ┆    ║✼${EmojiBot}️ ${prefix}bass2 (marca)
 ┆    ║✼${EmojiBot}️ ${prefix}bass3 (marca)
-┆    ║✼${EmojiBot}️ ${prefix}vozmenino (marca)
 ┆    ║
 ┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
 ╰═══════◉`

@@ -68,7 +68,7 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot} ${prefix}antilink 1 / 0
 ┆      ║✼${EmojiBot} ${prefix}antilinkgp 1 / 0
 ┆      ║✼${EmojiBot} ${prefix}antilinkhard 1 / 0
-┆      ║✼${EmojiBot} ${prefix}Antiviewone 1 / 0
+┆      ║✼${EmojiBot} ${prefix}x9visuunica 1 / 0
 ┆      ║✼${EmojiBot} ${prefix}antiporno 1 / 0
 ┆      ║✼${EmojiBot}️ ${prefix}antipalavrão 1 / 0
 ┆      ║✼${EmojiBot} ${prefix}antifake 1 / 0

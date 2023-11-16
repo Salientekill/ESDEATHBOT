@@ -64,13 +64,8 @@ return `
 ┆    ║✼${EmojiBot}️ ${prefix}antiligar 1 / 0
 ┆    ║✼${EmojiBot}️ ${prefix}antipv 1 / 0 (esse da block)
 ┆    ║✼${EmojiBot}️ ${prefix}antipv2 1 / 0 (msg)
-┆    ║✼${EmojiBot}️ ${prefix}antiligar 1 / 0
-┆    ║✼${EmojiBot}️ ${prefix}antipv 1 / 0 (esse da block)
-┆    ║✼${EmojiBot}️ ${prefix}antipv2 1 / 0 (msg)
+┆    ║✼${EmojiBot}️ ${prefix}antipv3 1 / 0 (ignora)
 ┆    ║✼${EmojiBot}️ ${prefix}antipalavrão 1 / 0
-┆    ║✼${EmojiBot}️ ${prefix}antiligar 1 / 0
-┆    ║✼${EmojiBot}️ ${prefix}antipv 1 / 0 (esse da block)
-┆    ║✼${EmojiBot}️ ${prefix}antipv2 1 / 0 (msg)
 ┆    ║✼${EmojiBot}️ ${prefix}dono2 @marca
 ┆    ║✼${EmojiBot}️ ${prefix}dono3 @marca
 ┆    ║✼${EmojiBot}️ ${prefix}dono4 @marca
