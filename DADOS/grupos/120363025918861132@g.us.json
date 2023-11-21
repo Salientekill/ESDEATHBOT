@@ -74,6 +74,36 @@
         ],
         "roletadasorte": false,
         "cassino": 0
+      },
+      {
+        "id": "5521997237337@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      },
+      {
+        "id": "14069664094@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
       }
     ],
     "ausentes": [],

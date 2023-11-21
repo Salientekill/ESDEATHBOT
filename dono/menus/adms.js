@@ -34,11 +34,13 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot} ${prefix}limpar (texto-invisível-gp)
 ┆      ║✼${EmojiBot} ${prefix}atividades (DO-GRUPO)
 ┆      ║✼${EmojiBot} ${prefix}linkgp
+┆      ║✼${EmojiBot} ${prefix}listagp2
 ┆      ║✼${EmojiBot} ${prefix}infogp
 ┆      ║✼${EmojiBot} ${prefix}listafake
 ┆      ║✼${EmojiBot} ${prefix}listanegra (559numero)
 ┆      ║✼${EmojiBot} ${prefix}tirardalista
 ┆      ║✼${EmojiBot} ${prefix}listaband
+┆      ║✼${EmojiBot} ${prefix}fechar-abrirgp 
 ┆      ║✼${EmojiBot} ${prefix}hidetag (txt) (marcação)
 ┆      ║✼${EmojiBot} ${prefix}marcar (marca Tds - Adms)
 ┆      ║✼${EmojiBot} ${prefix}marcar2 (Marca Todos)

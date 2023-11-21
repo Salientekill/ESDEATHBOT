@@ -23,6 +23,8 @@ return `
 ┆    ║✼${EmojiBot} ${prefix}criador
 ┆    ║✼${EmojiBot} ${prefix}convite (link)
 ┆    ║✼${EmojiBot} ${prefix}cep
+┆    ║✼${EmojiBot} ${prefix}imc peso|altura
+┆    ║✼${EmojiBot} ${prefix}logosite link
 ┆    ║✼${EmojiBot} ${prefix}InfoBemvindo
 ┆    ║✼${EmojiBot} ${prefix}Infopalavrão
 ┆    ║✼${EmojiBot} ${prefix}Infolistanegra
