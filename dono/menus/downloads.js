@@ -14,6 +14,7 @@ return `
 ┆     ║✼${EmojiBot} ${prefix}ytsearch2 (NOME)
 ┆     ║✼${EmojiBot} ${prefix}ytmp4 (LINK)
 ┆     ║✼${EmojiBot} ${prefix}ytmp3 (LINK)
+┆     ║✼${EmojiBot} ${prefix}spotify (NOME/LINK)
 ┆     ║✼${EmojiBot} ${prefix}tiktok (LINK)
 ┆     ║✼${EmojiBot} ${prefix}twitter (LINK)
 ┆     ║✼${EmojiBot} ${prefix}instagram (LINK)
