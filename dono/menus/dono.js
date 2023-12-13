@@ -19,6 +19,8 @@ return `
 ┆    ║✼${EmojiBot}️ ${prefix}seradm
 ┆    ║✼${EmojiBot} ${prefix}sermembro
 ┆    ║✼${EmojiBot} ${prefix}revogarlink
+┆    ║✼${EmojiBot} ${prefix}setlinkdivu
+┆    ║✼${EmojiBot} ${prefix}divugg
 ┆    ║✼${EmojiBot} ${prefix}nuke (ARQUIVAR GP)
 ┆    ║✼${EmojiBot}️ ${prefix}zerar_rank
 ┆    ║✼${EmojiBot}️ ${prefix}addpalavra (palavrão)
@@ -44,6 +46,8 @@ return `
 ┆    ║✼${EmojiBot}️ ${prefix}listagp2
 ┆    ║✼${EmojiBot}️ ${prefix}infogp
 ┆    ║✼${EmojiBot}️ ${prefix}sairgp
+┆    ║✼${EmojiBot}️ ${prefix}figpack (legenda)
+┆    ║✼${EmojiBot}️ ${prefix}figauthor (legenda)
 ╰━━━━━◉                
     
 ╭━━━━━◉                            

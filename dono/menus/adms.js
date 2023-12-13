@@ -19,9 +19,16 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot} ${prefix}rebaixar [@] (rebaixar adm)
 ┆      ║✼${EmojiBot} ${prefix}totag (menciona-algo)
 ┆      ║✼${EmojiBot} ${prefix}advertencia (marca msg)
+┆      ║✼${EmojiBot} ${prefix}advertidos
+┆      ║✼${EmojiBot} ${prefix}removeradvertencia
 ┆      ║✼${EmojiBot}️ ${prefix}blockcmd-temp (comando)
 ┆      ║✼${EmojiBot}️ ${prefix}unblockcmd-temp 
 ┆      ║✼${EmojiBot}️ ${prefix}listacomandos-temp
+┆      ║✼${EmojiBot}️ ${prefix}mensagem-automatica
+┆      ║✼${EmojiBot} ${prefix}lista-mensagens-automaticas
+┆      ║✼${EmojiBot} ${prefix}dl-mensagem-automatica
+┆      ║✼${EmojiBot} ${prefix}fechar-abrirgp
+┆      ║✼${EmojiBot} ${prefix}tirar-fechar-abrirgp
 ┆      ║✼${EmojiBot} ${prefix}sorteio
 ┆      ║✼${EmojiBot} ${prefix}sorteionumero
 ┆      ║✼${EmojiBot} ${prefix}status
@@ -29,6 +36,7 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot} ${prefix}destrava
 ┆      ║✼${EmojiBot} ${prefix}destrava2
 ┆      ║✼${EmojiBot} ${prefix}digt
+┆      ║✼${EmojiBot} ${prefix}aceitarmembro
 ┆      ║✼${EmojiBot} ${prefix}regraspp
 ┆      ║✼${EmojiBot} ${prefix}apresentar
 ┆      ║✼${EmojiBot} ${prefix}limpar (texto-invisível-gp)

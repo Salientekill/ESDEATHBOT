@@ -14,6 +14,7 @@ return `
 ┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
 ┆    ║
 ┆    ║✼${EmojiBot}️ ${prefix}Gay (marca (@))
+┆    ║✼${EmojiBot}️ ${prefix}hetero (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Feio (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Corno (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Vesgo (marca (@))
@@ -27,9 +28,11 @@ return `
 ┆    ║✼${EmojiBot}️ ${prefix}Dogolpe (marca (@))  
 ┆    ║✼${EmojiBot}️ ${prefix}Nazista (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Chance (fale algo) 
+┆    ║✼${EmojiBot}️ ${prefix}bmc
 ┆    ║✼${EmojiBot}️ ${prefix}ceu
 ┆    ║✼${EmojiBot}️ ${prefix}inferno
 ┆    ║✼${EmojiBot}️ ${prefix}webcorno  (@)
+┆    ║✼${EmojiBot}️ ${prefix}vdd_desafio
 ┆    ║✼${EmojiBot}️ ${prefix}Casal   
 ┆    ║✼${EmojiBot}️ ${prefix}golpista
 ┆    ║✼${EmojiBot}️ ${prefix}shipo @1 @2
@@ -74,23 +77,23 @@ return `
 ┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
 ╰━━━━━◉ 
     
-╭━━━━━◉  
-    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗   
-    ║  ${EmojiBot}𝐀𝐃𝐌${EmojiBot}
-    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝   
-╰━━━━━◉ 
-╭━━━━━◉  
-┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
-┆    ║
-┆    ║✼${EmojiBot} ${prefix}sistemgold
-┆    ║✼${EmojiBot} ${prefix}resetppt
-┆    ║✼${EmojiBot} ${prefix}resetaki
-┆    ║✼${EmojiBot} ${prefix}resetarttt
-┆    ║✼${EmojiBot} ${prefix}resetarvelha
-┆    ║✼${EmojiBot} ${prefix}resetarforca
-┆    ║
-┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
+╭━━━━━◉
+╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
+║  ${EmojiBot}𝐀𝐃𝐌${EmojiBot}
+╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
+╰━━━━━◉
+
+╭━━━━━◉
+┆  ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
+┆  ║✼${EmojiBot} ${prefix}sistemgold
+┆  ║✼${EmojiBot} ${prefix}resetppt
+┆  ║✼${EmojiBot} ${prefix}resetaki
+┆  ║✼${EmojiBot} ${prefix}resetarttt
+┆  ║✼${EmojiBot} ${prefix}resetarvelha
+┆  ║✼${EmojiBot} ${prefix}resetarforca
+┆  ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
 ╰═══════◉`
+
 }
 
 exports.brincadeiras = brincadeiras

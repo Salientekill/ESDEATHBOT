@@ -20,7 +20,7 @@ return `
 ┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
 ┆    ║
 ┆    ║✼${EmojiBot} ${prefix}admins
-┆    ║✼${EmojiBot} ${prefix}criador
+┆    ║✼${EmojiBot} ${prefix}dono
 ┆    ║✼${EmojiBot} ${prefix}convite (link)
 ┆    ║✼${EmojiBot} ${prefix}cep
 ┆    ║✼${EmojiBot} ${prefix}imc peso|altura
@@ -35,6 +35,8 @@ return `
 ┆    ║✼${EmojiBot} ${prefix}Infobot
 ┆    ║✼${EmojiBot} ${prefix}Idiomas
 ┆    ║✼${EmojiBot} ${prefix}Metodos
+┆    ║✼${EmojiBot} ${prefix}tomp3
+┆    ║✼${EmojiBot} ${prefix}totext
 ┆    ║✼${EmojiBot} ${prefix}Bug (questione)
 ┆    ║✼${EmojiBot} ${prefix}Avalie (o quao bom)
 ┆    ║✼${EmojiBot} ${prefix}Sugestao (dica)
