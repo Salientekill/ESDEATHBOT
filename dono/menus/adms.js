@@ -29,6 +29,7 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot} ${prefix}dl-mensagem-automatica
 ┆      ║✼${EmojiBot} ${prefix}fechar-abrirgp
 ┆      ║✼${EmojiBot} ${prefix}tirar-fechar-abrirgp
+┆      ║✼${EmojiBot} ${prefix}check-time
 ┆      ║✼${EmojiBot} ${prefix}sorteio
 ┆      ║✼${EmojiBot} ${prefix}sorteionumero
 ┆      ║✼${EmojiBot} ${prefix}status

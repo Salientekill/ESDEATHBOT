@@ -27,7 +27,6 @@ return `
     
 ╭═══════◉
 ┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
-┆    ║✼${EmojiBot} ${prefix}Nsfwts loli
 ┆    ║✼${EmojiBot} ${prefix}Nsfwts ahegao
 ┆    ║✼${EmojiBot} ${prefix}Nsfwts ass
 ┆    ║✼${EmojiBot} ${prefix}Nsfwts bdsm

@@ -22,10 +22,11 @@ return `
 ┆    ║✼${EmojiBot}️ ${prefix}Gostoso (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Gostosa (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Beijo (marca (@))
+┆    ║✼${EmojiBot}️ ${prefix}abraco (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Matar (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Tapa (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Chute (marca (@))
-┆    ║✼${EmojiBot}️ ${prefix}Dogolpe (marca (@))  
+┆    ║✼${EmojiBot}️ ${prefix}Dogolpe (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Nazista (marca (@))
 ┆    ║✼${EmojiBot}️ ${prefix}Chance (fale algo) 
 ┆    ║✼${EmojiBot}️ ${prefix}bmc

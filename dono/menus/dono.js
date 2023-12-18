@@ -44,6 +44,7 @@ return `
 ┆    ║✼${EmojiBot} ︎${prefix}join (linkgp)
 ┆    ║✼${EmojiBot}️ ${prefix}listagp
 ┆    ║✼${EmojiBot}️ ${prefix}listagp2
+┆    ║✼${EmojiBot}️ ${prefix}listacomunidades
 ┆    ║✼${EmojiBot}️ ${prefix}infogp
 ┆    ║✼${EmojiBot}️ ${prefix}sairgp
 ┆    ║✼${EmojiBot}️ ${prefix}figpack (legenda)
