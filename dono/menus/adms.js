@@ -24,6 +24,7 @@ const adms = (prefix, EmojiBot) => {
 ┆      ║✼${EmojiBot}️ ${prefix}blockcmd-temp (comando)
 ┆      ║✼${EmojiBot}️ ${prefix}unblockcmd-temp 
 ┆      ║✼${EmojiBot}️ ${prefix}listacomandos-temp
+┆      ║✼${EmojiBot}️ ${prefix}listacomunidades
 ┆      ║✼${EmojiBot}️ ${prefix}mensagem-automatica
 ┆      ║✼${EmojiBot} ${prefix}lista-mensagens-automaticas
 ┆      ║✼${EmojiBot} ${prefix}dl-mensagem-automatica
