@@ -9,6 +9,8 @@
   "anticall": false,
   "visualizarmsg": false,
   "isRecolherLink": false,
+  "Odelete": true,
+  "msgantilink": true,
   "listanegraG": [],
   "cmdpremium": [],
   "TOKEN_GPT": 0,
