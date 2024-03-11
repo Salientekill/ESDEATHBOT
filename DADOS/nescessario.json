@@ -1,7 +1,7 @@
 {
   "antipv": false,
   "antipv2": false,
-  "antipv3": false,
+  "antipv3": true,
   "menu_audio": false,
   "verificado": false,
   "consoleoff": true,
@@ -9,13 +9,12 @@
   "anticall": false,
   "visualizarmsg": false,
   "isRecolherLink": false,
-  "Odelete": true,
-  "msgantilink": true,
+  "Odelete": false,
+  "msgantilink": false,
+  "rg_aluguelGB": true,
   "listanegraG": [],
   "cmdpremium": [],
   "TOKEN_GPT": 0,
-  "audiomenu": "",
-  "audiomarcar": "",
   "dono1": ".",
   "dono2": ".",
   "dono3": ".",
@@ -23,10 +22,15 @@
   "dono5": ".",
   "dono6": ".",
   "banieumesma": "#meugit#/figurinhas/main/audios/dub/bani%20eu%20mesma.m4a",
-  "audioban": ["#meugit#/figurinhas/main/audios/dub/removido%20com%20sucesso.m4a","#meugit#/figurinhas/main/audios/dub/banido.m4a"],
+  "audioban": [
+    "#meugit#/figurinhas/main/audios/dub/removido%20com%20sucesso.m4a",
+    "#meugit#/figurinhas/main/audios/dub/banido.m4a"
+  ],
   "audiopromo": "#meugit#/figurinhas/main/audios/dub/promovido.m4a",
   "audiorebai": "#meugit#/figurinhas/main/audios/dub/rebaixado.m4a",
+  "audiomenu": "",
+  "audiomarcar": "",
   "msgantipv1": "🤖 *ANTI PV ATIVADO IREI DA BLOCK* 🤖\n\n❎ *CASO TENHA ALGUMA RECLAMAÇÃO A FAZER SOBRE O GRUPO QUE O BOT ESTÁ PROCURE O DONO DO GRUPO* ❎\n\n👑 *CASO TENHA ALGUMA COISA PARA RECLAMAR DO BOT QUE ESTÁ OFFLINE NO SEU GRUPO INFORME AO ATUAL DONO DO BOT* wa.me/#numerodono# 👑\n\n 🛠️ *CASO QUEIRA DA SUGESTÕES/IDEIAS PARA POR NO BOT OU ALUGAR O BOT PARA SEU GRUPO CHAME O CRIADOR* wa.me/+5521971281229 🛠️",
- "msgantipv2": "Não pode mandar mensagem para o bot, ele está programado para não responder, tente falar com meu dono",
+  "msgantipv2": "Não pode mandar mensagem para o bot, ele está programado para não responder, tente falar com meu dono",
   "TEMPO_DE_CMD": "Aguarde #tempo# Segundos ate executar outro comando, tempo a concluir: ⏳ #tempocmd#"
 }
