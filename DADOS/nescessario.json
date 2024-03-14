@@ -11,7 +11,7 @@
   "isRecolherLink": false,
   "Odelete": false,
   "msgantilink": false,
-  "rg_aluguelGB": true,
+  "rg_aluguelGB": false,
   "listanegraG": [],
   "cmdpremium": [],
   "TOKEN_GPT": 0,
