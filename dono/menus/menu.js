@@ -86,28 +86,15 @@ return `
 ╰═══════◉
 ╭━━━━━◉
 ┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
-┆    ║       *${EmojiBot}️𝐕𝐎𝐓𝐀𝐂̧𝐀̃𝐎 ${EmojiBot}️*          
-┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝    
-╰━━━━━◉
-╭═══════◉
-┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
-┆    ║
-┆    ║✼${EmojiBot} ${prefix}votação 
-┆    ║✼${EmojiBot} ${prefix}voto
-┆    ║✼${EmojiBot} ${prefix}devoto
-┆    ║
-┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
-╰═══════◉
-╭━━━━━◉
-┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
 ┆    ║       *${EmojiBot}️𝐂𝐌𝐃𝐒-𝐁𝐀𝐒𝐈𝐂𝐎𝐒${EmojiBot}️*      
 ┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝    
 ╰━━━━━◉
 ╭═══════◉
 ┆    ╔┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╗
 ┆    ║
-┆    ║✼${EmojiBot} ${prefix}Gtts (linguagem)
+┆    ║✼${EmojiBot} ${prefix}Gtts (língua+txt)
 ┆    ║✼${EmojiBot} ${prefix}Tagme
+┆    ║✼${EmojiBot} ${prefix}wame
 ┆    ║✼${EmojiBot} ${prefix}traduzir (A Palavra)
 ┆    ║✼${EmojiBot} ${prefix}Tabela (LETRAS) 
 ┆    ║✼${EmojiBot} ${prefix}Conselhobiblico
@@ -116,6 +103,7 @@ return `
 ┆    ║✼${EmojiBot} ${prefix}Calcular (numero)
 ┆    ║✼${EmojiBot} ${prefix}Fazernick (nick)
 ┆    ║✼${EmojiBot} ${prefix}Esdeath
+┆    ║✼${EmojiBot} ${prefix}jogos
 ┆    ║✼${EmojiBot} Prefixo: ⟪•  ${prefix}  •⟫
 ┆    ║
 ┆    ╚┉✼┉═༺◈✼${EmojiBot}️✼◈༻═┉✼┉╝
