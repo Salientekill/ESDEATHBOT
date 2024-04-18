@@ -1,0 +1,85 @@
+[
+  {
+    "id": "120363025918861132@g.us",
+    "subject": "🧫 LABORATÓRIO ESDEATH 🧪",
+    "subjectTime": 1690733403,
+    "size": 8,
+    "creation": 1660927032,
+    "owner": "558499397084@s.whatsapp.net",
+    "desc": "Teste123",
+    "descId": "BAEC17824E12B100C0842C66C67327F9",
+    "restrict": false,
+    "announce": false,
+    "isCommunity": false,
+    "isCommunityAnnounce": false,
+    "joinApprovalMode": true,
+    "memberAddMode": false,
+    "participants": [
+      {
+        "id": "5511968053559@s.whatsapp.net",
+        "admin": null
+      },
+      {
+        "id": "5521972123929@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "5521972442253@s.whatsapp.net",
+        "admin": null
+      },
+      {
+        "id": "5521995400244@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "5521997237337@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "554491150998@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "557999238248@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "558198923680@s.whatsapp.net",
+        "admin": "admin"
+      }
+    ]
+  },
+  {
+    "id": "120363238255978400@g.us",
+    "subject": "Lab2",
+    "subjectOwner": "5521995400244@s.whatsapp.net",
+    "subjectTime": 1707877848,
+    "size": 4,
+    "creation": 1707877848,
+    "owner": "5521995400244@s.whatsapp.net",
+    "restrict": false,
+    "announce": false,
+    "isCommunity": false,
+    "isCommunityAnnounce": false,
+    "joinApprovalMode": false,
+    "memberAddMode": true,
+    "participants": [
+      {
+        "id": "17014985540@s.whatsapp.net",
+        "admin": "admin"
+      },
+      {
+        "id": "5521972442253@s.whatsapp.net",
+        "admin": null
+      },
+      {
+        "id": "5521995400244@s.whatsapp.net",
+        "admin": "superadmin"
+      },
+      {
+        "id": "5521997237337@s.whatsapp.net",
+        "admin": "admin"
+      }
+    ]
+  }
+]

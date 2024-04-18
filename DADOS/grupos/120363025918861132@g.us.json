@@ -1,0 +1,157 @@
+[
+  {
+    "name": "🧫 LABORATÓRIO ESDEATH 🧪",
+    "groupId": "120363025918861132@g.us",
+    "x9": false,
+    "antiimg": false,
+    "antivideo": false,
+    "antiaudio": false,
+    "antisticker": false,
+    "antidoc": false,
+    "antictt": false,
+    "antiloc": false,
+    "antilinkgp": true,
+    "antilinkhard": false,
+    "antifake": false,
+    "Odelete": false,
+    "antispam": true,
+    "antinotas": false,
+    "anticatalogo": false,
+    "sistemGold": true,
+    "visuUnica": false,
+    "registrarFIGUS": false,
+    "soadm": false,
+    "rg_aluguel": false,
+    "listanegra": [],
+    "advertir": [],
+    "prefixos": [
+      "!"
+    ],
+    "advertir2": [],
+    "legenda_estrangeiro": "0",
+    "legenda_documento": "0",
+    "legenda_video": "0",
+    "legenda_imagem": "0",
+    "multiprefix": false,
+    "forca_ofc": [
+      {
+        "acertos": 0,
+        "erros": 0,
+        "palavra": [],
+        "escreveu": [],
+        "palavra_ofc": 0,
+        "dica": 0,
+        "tema": 0
+      }
+    ],
+    "Chances": [
+      {
+        "id": "5521995400244@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      },
+      {
+        "id": "5521971281229@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      },
+      {
+        "id": "5521997237337@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      },
+      {
+        "id": "14069664094@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      },
+      {
+        "id": "5521999609557@s.whatsapp.net",
+        "ChanceG": null,
+        "ChanceR": [],
+        "Vinganca": null,
+        "quiz": [
+          {
+            "errou": 0,
+            "acertou": 0,
+            "numero": 0
+          }
+        ],
+        "roletadasorte": false,
+        "cassino": 0
+      }
+    ],
+    "ausentes": [],
+    "forca_inc": false,
+    "comandos_gold": [],
+    "antipalavrao": {
+      "active": false,
+      "palavras": []
+    },
+    "limitec": {
+      "active": false,
+      "quantidade": null
+    },
+    "wellcome": [
+      {
+        "bemvindo1": false,
+        "legendabv": "Olá #numerodele#, seja bem vindo (a)",
+        "legendasaiu": 0
+      },
+      {
+        "bemvindo2": false,
+        "legendabv": "Olá #numerodele#, seja bem vindo (a)",
+        "legendasaiu": 0
+      }
+    ],
+    "simi1": false,
+    "simi2": true,
+    "autosticker": false,
+    "autoresposta": true,
+    "jogos": true,
+    "bangp": false,
+    "nsfw": false,
+    "antimarc": false,
+    "level": true
+  }
+]
