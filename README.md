@@ -1,4 +1,4 @@
-# ESDEATH BOT V6 OFC
+# ESDEATH BOT V7 OFC
 <div align="center">
 <img src="https://telegra.ph/file/4f55f227cb19842a5280b.jpg" alt="ESDEATH BOT" width="300" />
 
@@ -27,35 +27,25 @@ COMANDOS BÁSICOS PARA BAIXAR OS PACOTES E BAIXAR A PASTA OFICIAL DA ESDEATH BOT
 
 ❄️ ~ 1 COMANDO :
 
-pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs -y && pkg install nodejs-lts -y && apt install git
+pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install termux-am && termux-setup-storage && pkg install ffmpeg -y && pkg install tesseract -y && pkg install python -y && pkg install wget -y
 
 VAI PRECISAR DIGITAR Y E CONFIRMAR TODA VEZ QUE PEDIR.
 
-❄️ ~ 2 COMANDO :
-
-termux-setup-storage
-
-E DE PERMISSÃO PARA O APLICATIVO TER ACESSO Ao ARMAZENAMENTO DO CELULAR PARA TER ACESSO A PASTA DO bot
-
-❄️ ~ 3 COMANDO :
-
-pkg install ffmpeg -y && pkg install tesseract -y && pkg install python -y && pkg install wget -y && pkg install git
-
-CASO PRECISE DIGITE Y E COMFIRME (SÓ CASO PREICSE)
-
-❄️ ~ 4 Comando :
+❄️ ~ 2 Comando :
 
 cd /sdcard && rm -rf ESDEATHBOT && git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT
 
 ESTE COMANDO IRÁ BAIXAR A PASTA DO BOT
 
-❄️ ~ 5 COMANDO :
+❄️ ~ 3 COMANDO :
 
 bash start.sh (PARA INICIAR A CONEXÃO COM QR CODE)
 
 OU
 
 bash start.sh -code (PARA INICIAR A CONEXÃO COM O CÓDIGO DE EMPARELHAMENTO)
+
+obs: caso esteja apresentando está mensagem: ---> Permission denied é somente você liberar acesso total aos arquivos para o termux
 
 __-_-_-_-_-
 
