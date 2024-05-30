@@ -138,7 +138,7 @@ export declare const PHONENUMBER_MCC: {
     "977": number;
     "31": number;
     "687": number;
-    "64": number; /** from: https://stackoverflow.com/questions/3809401/what-is-a-good-regular-expression-to-match-a-url */
+    "64": number;
     "505": number;
     "227": number;
     "234": number;
