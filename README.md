@@ -1,4 +1,4 @@
-# ESDEATH BOT V7 OFC
+# ESDEATH BOT V8 OFC
 <div align="center">
 <img src="https://telegra.ph/file/4f55f227cb19842a5280b.jpg" alt="ESDEATH BOT" width="300" />
 
@@ -27,9 +27,11 @@ COMANDOS BÁSICOS PARA BAIXAR OS PACOTES E BAIXAR A PASTA OFICIAL DA ESDEATH BOT
 
 ❄️ ~ 1 COMANDO :
 
-pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs -y && pkg install nodejs-lts -y && pkg install termux-am && termux-setup-storage && pkg install ffmpeg -y && pkg install tesseract -y && pkg install python -y && pkg install wget -y
+pkg upgrade -y && pkg update -y && apt install git nodejs termux-am ffmpeg tesseract python  wget -y && termux-setup-storage
 
 VAI PRECISAR DIGITAR Y E CONFIRMAR TODA VEZ QUE PEDIR.
+
+Obs: caso tente ligar o bot e de acess denied significa que você tem que dar acesso a todos os arquivos ao termux(caso tenha usando ele)
 
 ❄️ ~ 2 Comando :
 
@@ -44,8 +46,6 @@ bash start.sh (PARA INICIAR A CONEXÃO COM QR CODE)
 OU
 
 bash start.sh -code (PARA INICIAR A CONEXÃO COM O CÓDIGO DE EMPARELHAMENTO)
-
-obs: caso esteja apresentando está mensagem: ---> Permission denied é somente você liberar acesso total aos arquivos para o termux
 
 __-_-_-_-_-
 

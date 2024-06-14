@@ -165,7 +165,7 @@ colors: [`${cor4}`,`${cor3}`,`${cor2}`,`${cor1}`,`${cor5}`],
 lineHeight: 1
 });
  
-const banner3 = cfonts.render((`ESDEATH|BOT V7`), {
+const banner3 = cfonts.render((`ESDEATH|BOT V8`), {
 font: 'block',             
 align: 'center',           
 colors: [`${cor5}`,`${cor1}`,`${cor3}`,`${cor4}`,`${cor2}`],
