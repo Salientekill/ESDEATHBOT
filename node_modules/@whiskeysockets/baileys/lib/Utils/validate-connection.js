@@ -72,7 +72,7 @@ const generateMobileNode = (config) => {
             appCached: false,
             dnsMethod: WAProto_1.proto.ClientPayload.DNSSource.DNSResolutionMethod.SYSTEM,
         },
-        passive: false,
+        passive: false, // XMPP heartbeat setting (false: server actively pings) (true: client actively pings)
         pushName: 'test',
         username: Number(`${config.auth.creds.registration.phoneNumberCountryCode}${config.auth.creds.registration.phoneNumberNationalNumber}`),
     };

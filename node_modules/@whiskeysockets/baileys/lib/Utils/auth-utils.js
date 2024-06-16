@@ -18,7 +18,7 @@ const generics_1 = require("./generics");
  */
 function makeCacheableSignalKeyStore(store, logger, _cache) {
     const cache = _cache || new node_cache_1.default({
-        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.SIGNAL_STORE,
+        stdTTL: Defaults_1.DEFAULT_CACHE_TTLS.SIGNAL_STORE, // 5 minutes
         useClones: false,
         deleteOnExpire: true,
     });
