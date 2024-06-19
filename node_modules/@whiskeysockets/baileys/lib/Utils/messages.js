@@ -464,7 +464,7 @@ const generateWAMessageFromContent = (jid, message, options) => {
     const key = (0, exports.getContentType)(innerMessage);
     const timestamp = (0, generics_1.unixTimestampSeconds)(options.timestamp);
     const { quoted, userJid } = options;
-    if (quoted) {
+    if (quoted && !(0, WABinary_1.isJidNewsletter)(jid)) {
         const participant = quoted.key.fromMe ? userJid : (quoted.participant || quoted.key.participant || quoted.key.remoteJid);
         let quotedMsg = (0, exports.normalizeMessageContent)(quoted.message);
         const msgType = (0, exports.getContentType)(quotedMsg);
@@ -491,7 +491,8 @@ const generateWAMessageFromContent = (jid, message, options) => {
         // and it's not a protocol message -- delete, toggle disappear message
         key !== 'protocolMessage' &&
         // already not converted to disappearing message
-        key !== 'ephemeralMessage') {
+        key !== 'ephemeralMessage' &&
+        !(0, WABinary_1.isJidNewsletter)(jid)) {
         innerMessage[key].contextInfo = {
             ...(innerMessage[key].contextInfo || {}),
             expiration: options.ephemeralExpiration || Defaults_1.WA_DEFAULT_EPHEMERAL,

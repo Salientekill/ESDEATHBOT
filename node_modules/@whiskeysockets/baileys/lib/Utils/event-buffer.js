@@ -113,6 +113,8 @@ const makeEventBuffer = (logger) => {
         on: (...args) => ev.on(...args),
         off: (...args) => ev.off(...args),
         removeAllListeners: (...args) => ev.removeAllListeners(...args),
+        ping: 0,
+        lastPings: [0, 0]
     };
 };
 exports.makeEventBuffer = makeEventBuffer;

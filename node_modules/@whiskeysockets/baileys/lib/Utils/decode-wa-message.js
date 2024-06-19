@@ -68,6 +68,11 @@ function decodeMessageNode(stanza, meId, meLid) {
         chatId = from;
         author = participant;
     }
+    else if ((0, WABinary_1.isJidNewsletter)(from)) {
+        msgType = 'chat';
+        author = from;
+        chatId = from;
+    }
     else {
         throw new boom_1.Boom('Unknown message type', { data: stanza });
     }

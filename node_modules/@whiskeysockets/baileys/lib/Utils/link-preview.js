@@ -18,10 +18,16 @@ const getCompressedJpegThumbnail = async (url, { thumbnailWidth, fetchOpts }) =>
  */
 const getUrlInfo = async (text, opts = {
     thumbnailWidth: THUMBNAIL_WIDTH_PX,
-    fetchOpts: { timeout: 3000 }
+    fetchOpts: { timeout: 3000 },
+    blacklistLinkPreview: []
 }) => {
     var _a;
     try {
+        for (const blackLink of opts.blacklistLinkPreview) {
+            if (text.includes(blackLink)) {
+                return;
+            }
+        }
         // retries
         const retries = 0;
         const maxRetry = 5;
