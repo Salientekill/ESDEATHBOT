@@ -137,21 +137,10 @@ return await mimetype.extension(type)
 }
 
 const getGroupAdmins = (participants) => {
-admins = []
-for (let i of participants) {
-if(i.admin == 'admin') admins.push(i.id)
-if(i.admin == 'superadmin') admins.push(i.id)
-}
-return admins
-}
+return participants.filter(participant => participant.admin === 'admin' || participant.admin === 'superadmin').map(participant => participant.id)}
 
 const getMembros = (participants) => {
-admins = []
-for (let i of participants) {
-if(i.admin == null) admins.push(i.id)
-}
-return admins
-}
+return participants.filter(participant => participant.admin === null || participant.admin === undefined).map(participant => participant.id)}
 
 const getRandom = (ext) => {
 return `${Math.floor(Math.random() * 10000)}${ext}`;
