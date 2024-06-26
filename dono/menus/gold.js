@@ -49,6 +49,8 @@ return `
 ┆    ║${EmojiBot}️ ${prefix}emojigold
 ┆    ║${EmojiBot}️ ${prefix}caracoroa cara/valor
 ┆    ║${EmojiBot}️ ${prefix}aviatorgold valor
+┆    ║${EmojiBot}️ ${prefix}ccgold @
+┆    ║${EmojiBot}️ ${prefix}doublegold
 ┆    ║${EmojiBot}️ ${prefix}roletadasorte
 ┆    ║${EmojiBot}️ ${prefix}statusgold
 ┆    ║${EmojiBot}️ ${prefix}comprar vingançagold
