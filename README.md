@@ -17,7 +17,7 @@ https://chat.whatsapp.com/GTXYQ9ipObnKfHU1jMPLII
 SÓ SERÁ NESCESSARIO DA OS COMANDOS BÁSICOS DO TERMUX, SE APÓS A INSTALAÇÃO DELE, NÃO FOI DADO ESSES COMANDOS LISTADOS. 
 
 DOWNLOAD DA PASTA DO BOT EM ZIP:
-[![Download ZIP](https://img.shields.io/badge/Download-ZIP-brightgreen)](https://github.com/Salientekill/ESDEATHBOTB/archive/refs/heads/main.zip)
+[![Download ZIP](https://img.shields.io/badge/Download-ZIP-brightgreen)](https://github.com/Salientekill/ESDEATHBOT/archive/refs/heads/main.zip)
 
 _-_-_-_-_-_-_-_-_
 
