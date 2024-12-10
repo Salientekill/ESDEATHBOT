@@ -1,0 +1,56 @@
+{
+  "dependencies": {
+    "@whiskeysockets/baileys": "github:whiskeysockets/baileys",
+    "assemblyai": "^4.8.0",
+    "axios": "^0.21.1",
+    "cfonts": "^2.10.0",
+    "cheerio": "^1.0.0-rc.12",
+    "colors": "^1.4.0",
+    "crypto-js": "^4.2.0",
+    "escape-string-regexp": "^1.0.5",
+    "fake-useragent": "^1.0.1",
+    "fluent-ffmpeg": "^2.1.2",
+    "fs-extra": "^11.1.0",
+    "human-readable": "^0.2.1",
+    "jsdom": "^19.0.0",
+    "linkifyjs": "^4.1.0",
+    "lodash": "^4.17.21",
+    "lz-string": "^1.5.0",
+    "moment-timezone": "^0.5.40",
+    "multistream": "^4.1.0",
+    "natural": "^6.10.4",
+    "node-fetch": "^2.6.7",
+    "node-webpmux": "^3.1.1",
+    "qrcode-terminal": "^0.12.0",
+    "request": "^2.88.2",
+    "spinnies": "^0.5.1",
+    "sqlite": "^5.1.1",
+    "sqlite3": "^5.1.7",
+    "yt-search": "^2.12.1",
+    "zod": "^3.23.8"
+  },
+  "name": "ESDEATH BOT",
+  "description": "Sempre buscando melhorar, qualquer dúvida chama lá no WhatsApp: +55 21 99540-0244",
+  "version": "9.5",
+  "scripts": {
+    "start": "ulimit -c 0 && bash start.sh -code",
+    "start2": "ulimit -c 0 && bash start.sh",
+    "start3": "ulimit -c 0 && bash start.sh -code2",
+    "atualizar": "bash atualizar.sh",
+    "test": "node iniciar.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Salientekill/ESDEATHBOTB.git"
+  },
+  "keywords": [
+    "BOT",
+    "ESDEATH"
+  ],
+  "author": "Lotus </>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Salientekill/ESDEATHBOTB/issues"
+  },
+  "homepage": "https://github.com/Salientekill/ESDEATHBOTB/#readme"
+}
