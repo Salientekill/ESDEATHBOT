@@ -65,4 +65,10 @@ const ADnVcnd = `🟧⚠️ *AVISO DO ALUGUEL* ⚠️🟧\n\nO aluguel do grupo 
 // MSG DE AVISO AO DONO DE SAÍDA
 const ADnSd = `🟥⏳ *AVISO DO ALUGUEL!* ⏳🟥\n\nO aluguel do grupo *#nomegp#* (#idgp#) expirou há 2 dias! 🕛\nComo não houve renovação, o bot está saindo do grupo.`;
 
-module.exports = { QVcnd, Vcnd, Saida, ADnQVcnd, ADnVcnd, ADnSd, TEXTOS_GERAL }
+// MSG DE NÃO REGISTRADO AO TENTAR USAR CMD
+const NrgIndex = `Olá, #usuario#! 🚨\nO aluguel deste *(grupo/usuario)* não está registrado no meu sistema. 🕒\nEntre em contato com meu dono agora mesmo para regularizar:\n👉 Clique aqui para falar com ele! https://wa.me/#numerodono#\nGaranta o acesso total aos meus serviços! 😎✨`
+
+// MSG DE VENCIDO AO TENTA USAR CMD
+const Vcndindex = `👋 Oi, #usuario#!\nParece que o seu aluguel expirou. 😥\nNão perca tempo! Renove agora mesmo para continuar aproveitando meus serviços incríveis. 🚀\n\n📞 Entre em contato com meu dono:\n👉 Clique aqui para falar com ele! https://wa.me/#numerodono#\nEstou aqui esperando por você! 😉`
+
+module.exports = { QVcnd, Vcnd, Saida, ADnQVcnd, ADnVcnd, ADnSd, Vcndindex, NrgIndex, TEXTOS_GERAL }
