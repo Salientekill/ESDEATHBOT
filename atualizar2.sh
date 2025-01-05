@@ -27,9 +27,9 @@ if [ -f "DADOS.zip" ]; then
     
     # Clonar o repositório do ESDEATH BOT e executar o start.sh
     echo -e "${GREEN}Clonando o repositório do ESDEATH BOT${RESET}"
-    git clone https://github.com/Salientekill/ESDEATHBOTC.git && \
-    mv ESDEATHBOTC/* . && \
-    rm -rf ESDEATHBOTC && \
+    git clone https://github.com/Salientekill/ESDEATHBOT.git && \
+    mv ESDEATHBOT/* . && \
+    rm -rf ESDEATHBOT && \
     echo -e "${GREEN}Extraindo o arquivo DADOS.zip${RESET}" && \
     unzip -o DADOS.zip -d . && \
     echo -e "${GREEN}Removendo o arquivo DADOS.zip${RESET}" && \
