@@ -84,7 +84,7 @@ pkg upgrade -y && pkg update -y && pkg install git nodejs nodejs-lts ffmpeg tess
 2. Baixe a pasta do ESDEATH BOT:
 
 ```bash
-cd /sdcard && rm -rf ESDEATHBOTB && git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT
+cd /sdcard && rm -rf ESDEATHBOT && git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT
 ```
 
 
