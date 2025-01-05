@@ -3,7 +3,7 @@
 <div align="center">
 <img src="https://i.ibb.co/NY8VFNT/20241210-021314.jpg" alt="ESDEATH BOT" width="300" />
 </div><p align="center">
-  <a href="https://github.com/Salientekill/ESDEATHBOTB.git"><img title="Author" src="https://img.shields.io/badge/Author-LotusDev-red.svg?style=for-the-badge&logo=github" /></a>
+  <a href="https://github.com/Salientekill/ESDEATHBOT.git"><img title="Author" src="https://img.shields.io/badge/Author-LotusDev-red.svg?style=for-the-badge&logo=github" /></a>
   
   
 <div align="center">
@@ -20,7 +20,7 @@ Este é um bot privado. Para ativar o ESDEATH BOT, é necessária uma chave de a
 Baixe a versão mais recente da ESDEATH BOT diretamente do GitHub:
 
 <div align="center">
-  <a href="https://github.com/Salientekill/ESDEATHBOTC/archive/refs/heads/main.zip">
+  <a href="https://github.com/Salientekill/ESDEATHBOT/archive/refs/heads/main.zip">
     <img src="https://img.shields.io/badge/Download-ZIP-brightgreen" alt="Download ZIP"/>
   </a>
 </div>
@@ -30,7 +30,7 @@ Baixe a versão mais recente da ESDEATH BOT diretamente do GitHub:
 Ou, se preferir, você pode clonar o repositório diretamente no seu ambiente:
 
 ```bash
-git clone https://github.com/Salientekill/ESDEATHBOTC.git
+git clone https://github.com/Salientekill/ESDEATHBOT.git
 ```
 
 <div align="center">
@@ -84,7 +84,7 @@ pkg upgrade -y && pkg update -y && pkg install git nodejs nodejs-lts ffmpeg tess
 2. Baixe a pasta do ESDEATH BOT:
 
 ```bash
-cd /sdcard && rm -rf ESDEATHBOTB && git clone https://github.com/Salientekill/ESDEATHBOTC.git && cd ESDEATHBOTC
+cd /sdcard && rm -rf ESDEATHBOTB && git clone https://github.com/Salientekill/ESDEATHBOT.git && cd ESDEATHBOT
 ```
 
 
