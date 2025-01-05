@@ -42,7 +42,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Salientekill/ESDEATHBOTB.git"
+    "url": "git+https://github.com/Salientekill/ESDEATHBOT.git"
   },
   "keywords": [
     "BOT",
@@ -51,7 +51,7 @@
   "author": "Lotus </>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Salientekill/ESDEATHBOTB/issues"
+    "url": "https://github.com/Salientekill/ESDEATHBOT/issues"
   },
-  "homepage": "https://github.com/Salientekill/ESDEATHBOTB/#readme"
+  "homepage": "https://github.com/Salientekill/ESDEATHBOT/#readme"
 }
