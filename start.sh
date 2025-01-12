@@ -15,7 +15,7 @@ start_node_script_with_code() {
 }
 
 if echo "$*" | grep -q -- "-code"; then
-    if [ ! -f DADOS/ESDEATH-QR/creds.json ]; then
+    if [ ! -f dados/ESDEATH-QRDB ]; then
         echo -e "\e[32m - iniciado com código de emparelhamento...\e[0m"
         while : 
         do
