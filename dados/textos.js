@@ -45,6 +45,10 @@ MENSAGEM_GRUPO_FECHOU: "*GRUPO FECHADO COM SUCESSO*"
 
 }
 
+// FILTRO DE PALAVRAS PARA O SIMIH2
+
+const FiltroSimih2 = [ "gay", "cu", "buceta", "bct", "pau", "rola", "vagina", "penis" ]
+
 // #nomegp# é o nome do grupo, #idgp# é o nome do grupo, #lermais# é aquele ler mais, #numerodono e o numero do dono
 
 // MSG DE QUASE VENCIDO
@@ -71,4 +75,4 @@ const NrgIndex = `Olá, #usuario#! 🚨\nO aluguel deste *(grupo/usuario)* não 
 // MSG DE VENCIDO AO TENTA USAR CMD
 const Vcndindex = `👋 Oi, #usuario#!\nParece que o seu aluguel expirou. 😥\nNão perca tempo! Renove agora mesmo para continuar aproveitando meus serviços incríveis. 🚀\n\n📞 Entre em contato com meu dono:\n👉 Clique aqui para falar com ele! https://wa.me/#numerodono#\nEstou aqui esperando por você! 😉`
 
-module.exports = { QVcnd, Vcnd, Saida, ADnQVcnd, ADnVcnd, ADnSd, Vcndindex, NrgIndex, TEXTOS_GERAL }
+module.exports = { QVcnd, Vcnd, Saida, ADnQVcnd, ADnVcnd, ADnSd, Vcndindex, NrgIndex, TEXTOS_GERAL, FiltroSimih2 }
