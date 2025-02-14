@@ -914,7 +914,37 @@ divine_lord: {
     maxCachaca: 3,
     cachacaPrice: 50,
     markedBonus: 50,
-    markedChance: 10
+    markedChance: 10,
+    maxDailyRobbed: 10,
+    maxDailyRobbedWithKit: 15,
+    equipmentLossChance: 15,
+    repairKitDurability: 100,
+    noShieldDamageMultiplier: 1.5,
+    fistNoShieldDamageMultiplier: 3.0,
+    kitMedicoDamageReduction: 0.3,
+    minDamageForSteal: 20,
+    maxGoldSteal: 500,
+    failedRobberyEscapeChance: 60,
+    goldLossMinPercent: 20,
+    goldLossMaxPercent: 40,
+    durabilityLossPerDamage: 10
+},
+
+specialItems: {
+    medkit: {
+      name: "Kit Médico",
+      price: 1000,
+      maxQuantity: 1,
+      description: "Aumenta o limite de ataques sofridos de 10 para 15",
+      effect: "Permite aguentar 5 ataques adicionais antes de morrer"
+    },
+    repairkit: {
+      name: "Kit de Reparo",
+      price: 800,
+      maxQuantity: 1,
+      description: "Repara automaticamente o escudo quando quebrado",
+      effect: "Restaura 100 de durabilidade quando o escudo quebra"
+    }
   },
 
   // Mensagens do sistema
