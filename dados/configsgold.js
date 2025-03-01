@@ -1,5 +1,4 @@
 // configsGold.js
-
 const configsGold = {
   // Configurações das armas básicas
   weapons: {
@@ -77,7 +76,7 @@ const configsGold = {
   },
 
   // Configurações dos escudos básicos
-armors: {
+  armors: {
     cardboard: {
       name: "Escudo de Papelão",
       defense: 15,          // Reduz 15% do dano
@@ -150,55 +149,6 @@ armors: {
     }
 },
 
-  // Sistema de Combate
-  combat: {
-    settings: {
-      minDamage: 1,
-      maxCritChance: 30,
-      baseCritMultiplier: 2,
-      maxDamageReduction: 80,
-      minGoldSteal: 10,
-      maxGoldSteal: 500,
-      minDamageForSteal: 20,
-      pvpDeathThreshold: 10
-    },
-    
-    // Multiplicadores de dano
-    damageMultipliers: {
-      headshot: 2.0,
-      backstab: 1.5,
-      critical: 2.0,
-      revenge: 1.5
-    },
-
-    // Configurações de vingança
-    revenge: {
-      damageBonus: 50,
-      duration: "1d",
-      maxTargets: 5
-    },
-
-    // Configurações de roubo
-    stealing: {
-      multiplier: 2,
-      minGoldRequired: 1,
-      maxStealPercent: 50
-    },
-
-    // Mensagens de combate
-    messages: {
-      criticalHit: "💥 Acerto Crítico! Dano dobrado!",
-      playerDeath: "☠️ {player} foi morto por {killer}!",
-      insufficientGold: "Você precisa ter pelo menos {amount} Gold para atacar.",
-      noGoldTarget: "O alvo não possui Gold para ser roubado.",
-      noWeapon: "Você precisa ter uma arma e munição para atacar!",
-      playerDead: "Este jogador está morto e só renascerá amanhã!",
-      youAreDead: "Você está morto e só poderá atacar novamente amanhã!",
-      successSteal: "Você roubou {amount} Golds!",
-      failedSteal: "O roubo falhou! Você perdeu {amount} Golds!"
-    }
-  },
-  
   dungeon: {
     // Configurações gerais do sistema
     configs: {
@@ -908,29 +858,45 @@ divine_lord: {
 
   // Configurações gerais do sistema
   settings: {
+    // Configurações de Combate
     maxDailyAmmoRefills: 3,
     maxDeathCount: 10,
+    durabilityLossPerDamage: 10,
+
+    // Dano e Multiplicadores
+    noShieldDamageMultiplier: 1.5,     // Multiplicador de dano contra alvo sem escudo
+    fistNoShieldDamageMultiplier: 3.0,  // Multiplicador de dano do soco contra alvo sem escudo
+    stealMultiplier: 2,                 // Multiplicador para cálculo de gold roubado
+
+    // Limites de Roubo
+    minDamageForSteal: 20,             // Dano mínimo para roubar com escudo
+    minDamageForStealNoShield: 12,     // Dano mínimo para roubar sem escudo
+    maxGoldSteal: 500,                 // Máximo de gold que pode ser roubado
+
+    // Sistema de Vingança
     revengeDamageBonus: 1.2,
-    maxCachaca: 3,
-    cachacaPrice: 50,
     markedBonus: 50,
     markedChance: 10,
-    maxDailyRobbed: 10,
-    maxDailyRobbedWithKit: 15,
-    equipmentLossChance: 15,
+
+    // Sistema de Morte
+    maxDailyRobbed: 10,                // Limite de vezes que pode ser roubado
+    maxDailyRobbedWithKit: 15,         // Limite com kit médico
+    equipmentLossChance: 15,           // Chance de perder equipamento ao morrer
+    
+    // Itens e Kits
+    maxCachaca: 3,
+    cachacaPrice: 50,
+    maxCachacaBuyDay: 10,
     repairKitDurability: 100,
-    noShieldDamageMultiplier: 1.5,
-    fistNoShieldDamageMultiplier: 3.0,
-    kitMedicoDamageReduction: 0.3,
-    minDamageForSteal: 20,
-    maxGoldSteal: 500,
-    failedRobberyEscapeChance: 60,
-    goldLossMinPercent: 20,
-    goldLossMaxPercent: 40,
-    durabilityLossPerDamage: 10
+    kitMedicoDamageReduction: 0.3,     // Redução de dano quando usa kit médico
+
+    // Falhas de Roubo
+    failedRobberyEscapeChance: 60,     // Chance de escapar sem perder gold
+    goldLossMinPercent: 20,            // % mínima de perda em roubo falho
+    goldLossMaxPercent: 40             // % máxima de perda em roubo falho
 },
 
-specialItems: {
+  specialItems: {
     medkit: {
       name: "Kit Médico",
       price: 1000,
